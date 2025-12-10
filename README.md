@@ -18,25 +18,25 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 ### Para compilar:
-´´´
+```
 java -cp "lib/aspectjtools.jar;lib/aspectjrt.jar" org.aspectj.tools.ajc.Main -d bin src/*.java src/*.aj
-´´´
+```
 ### Para ejecutar:
-´´´
+```
 java -cp "bin;lib/aspectjrt.jar" Main
-´´´
+```
 
 ### Salida esperada: 
-´´´
+```
 === Configuración del Sistema ===
 Volumen: 50.0
 Idioma: EN
-Dificultad: 1
+Dificultad: 3
 =================================
 === Configuración del Sistema ===
 Volumen: 50.0
 Idioma: EN
-Dificultad: 1
+Dificultad: 3
 =================================
 true 
-´´´
+```
